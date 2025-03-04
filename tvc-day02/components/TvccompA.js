@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
 
-export default class TvcCompA extends Component {
+export default class TvcCompA extends Component 
+  {
     constructor(props) {
         super(props);
         this.state = {
-            name: "Chung Trịnh",
-        };
+            name: "vantantantan"
     }
 
-    render() {
+    render() 
+    {
         return (
             <div>
                 <h2>TvcCompA</h2>
@@ -20,3 +21,4 @@ export default class TvcCompA extends Component {
         )
     }
 }
+  }
