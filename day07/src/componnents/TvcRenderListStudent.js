@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'Tạ Văn Tân';
 
 class TvcRenderListStudent extends Component {
     constructor(props){

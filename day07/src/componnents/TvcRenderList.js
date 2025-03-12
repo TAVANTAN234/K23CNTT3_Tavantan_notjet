@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'Tạ Văn Tân'
 
 export default function TvcRenderList() {
-    const tvcList = ["Trịnh Chung", "ReactJS","Fit-NTU"];
+    const tvcList = ["Văn TânTân", "ReactJS","Fit-NTU"];
 
     const tvcElement = tvcList.map(item=>{
         return <li>{item}</li>

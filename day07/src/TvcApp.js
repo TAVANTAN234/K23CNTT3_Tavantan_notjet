@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'Tạ Văn Tân';
+import TvcLoginControl from './components/TvcLoginControl';
+import TvcRenderList from './components/TvcRenderList';
+import TvcRenderListStudent from './components/TvcRenderListStudent';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class TvcApp extends Component {
+  render() {
+    return (
+      <div className='container border my-3'>
+          <h1 className='text-center'>Tạ Văn Tân  - Render condition, List key</h1>
+          <hr/>
+          <TvcLoginControl />
+
+          <TvcRenderList />
+
+          <TvcRenderListStudent />
+      </div>
+    );
+  }
 }
 
-export default App;
+export default TvcApp;

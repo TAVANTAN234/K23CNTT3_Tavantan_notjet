@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'Tạ Văn Tân';
 import TvcLoginComp from './TvcLoginComp';
 import TvcLogoutComp from './TvcLogoutComp';
 

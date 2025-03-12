@@ -1,0 +1,85 @@
+/* Tổng thể */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffeef5; /* Hồng pastel nhẹ */
+    color: #5a5a5a; /* Màu chữ xám nhẹ */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Container chính */
+  .container {
+    background: #fff;
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Tiêu đề */
+  h2 {
+    color: #d63384; /* Hồng đậm */
+    border-bottom: 2px solid #f8a8c5;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Bảng danh sách tài khoản */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #f8a8c5;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #ffc2d1;
+    color: #5a5a5a;
+  }
+  
+  /* Form thêm tài khoản */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #f8a8c5;
+    border-radius: 8px;
+    outline: none;
+  }
+  
+  input:focus {
+    border-color: #d63384;
+    box-shadow: 0 0 5px rgba(214, 51, 132, 0.3);
+  }
+  
+  /* Nút bấm */
+  button {
+    background-color: #ff80ab;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #d63384;
+  }
+  

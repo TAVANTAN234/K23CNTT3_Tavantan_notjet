@@ -1,22 +1,17 @@
-import React, { Component } from 'react';
-import TvcLoginControl from './components/TvcLoginControl';
-import TvcRenderList from './components/TvcRenderList';
-import TvcRenderListStudent from './components/TvcRenderListStudent';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import reportWebVitals from './reportWebVitals';
+import TvcApp from './TvcApp';
 
-class TvcApp extends Component {
-  render() {
-    return (
-      <div className='container border my-3'>
-          <h1 className='text-center'>Tạ Văn Tân - Render condition, List key</h1>
-          <hr/>
-          <TvcLoginControl />
+const tvc_root = ReactDOM.createRoot(document.getElementById('Tạ Văn Tân'));
+tvc_root.render(
+  <React.StrictMode>
+    <TvcApp />
+  </React.StrictMode>
+);
 
-          <TvcRenderList />
-
-          <TvcRenderListStudent />
-      </div>
-    );
-  }
-}
-
-export default TvcApp;
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
