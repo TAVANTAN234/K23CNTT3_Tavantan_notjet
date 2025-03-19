@@ -1,0 +1,30 @@
+{
+    "users":[
+        {
+            "fullName":"ta van tan",
+            "age":19,
+            "class":"K23CNTT3"
+        },
+        {
+            "fullName":"nguyen quang nguyen",
+            "age":19,
+            "class":"K23CNTT1"
+        },
+        {
+            "fullName":"ta van tan",
+            "age":19,
+            "class":"K23CNTT1"
+        },
+        {
+            "fullName":"ta van tan",
+            "age":19,
+            "class":"K23CNTT3"
+        }
+    ],
+    "students":[
+        {
+            "studentID":"SV0001",
+            "studentName":"nguyen van nguyen"
+        }
+    ]
+}
